@@ -1,0 +1,462 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:18:52 -0600
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:19:57 -0600
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:29:42 -0600
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:32:17 -0600
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateAnimals (20141125172604)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "animals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141125172604"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Migrating to CreateSightings (20141125172744)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "sightings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "animal_id" integer, "region_id" integer, "date" datetime, "latitude" varchar(255), "longitude" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141125172744"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Migrating to CreateRegions (20141125172852)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "regions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141125172852"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:32:47 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AnimalsController#index as HTML
+  [1m[35mAnimal Load (0.2ms)[0m  SELECT "animals".* FROM "animals"
+  Rendered animals/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1362ms (Views: 1341.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/animals.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/sightings.js?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/animals.css?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-25 11:32:49 -0600
+
+
+Started GET "/assets/sightings.css?body=1" for 127.0.0.1 at 2014-11-25 11:32:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 11:32:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:32:53 -0600
+Processing by AnimalsController#index as HTML
+  [1m[36mAnimal Load (0.1ms)[0m  [1mSELECT "animals".* FROM "animals"[0m
+  Rendered animals/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2014-11-25 11:32:55 -0600
+Processing by AnimalsController#new as HTML
+  Rendered animals/_form.html.erb (9.8ms)
+  Rendered animals/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2014-11-25 11:32:57 -0600
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmsMxNDmP8jInmj7vzOBICK28N6rvDPH62bg1c4GPH8=", "commit"=>"Create Animal"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "animals" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2014-11-25 17:32:57.221180"], ["updated_at", "2014-11-25 17:32:57.221180"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/animals/1
+Completed 302 Found in 16ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2014-11-25 11:32:57 -0600
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAnimal Load (1.0ms)[0m  [1mSELECT  "animals".* FROM "animals"  WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered animals/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 58ms (Views: 51.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2014-11-25 11:33:01 -0600
+Processing by AnimalsController#index as HTML
+  [1m[35mAnimal Load (0.1ms)[0m  SELECT "animals".* FROM "animals"
+  Rendered animals/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 81ms (Views: 80.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2014-11-25 11:33:03 -0600
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAnimal Load (0.1ms)[0m  [1mSELECT  "animals".* FROM "animals"  WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered animals/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/animals/1/edit" for 127.0.0.1 at 2014-11-25 11:33:04 -0600
+Processing by AnimalsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAnimal Load (0.1ms)[0m  SELECT  "animals".* FROM "animals"  WHERE "animals"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered animals/_form.html.erb (1.2ms)
+  Rendered animals/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/animals/1" for 127.0.0.1 at 2014-11-25 11:33:06 -0600
+Processing by AnimalsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmsMxNDmP8jInmj7vzOBICK28N6rvDPH62bg1c4GPH8=", "commit"=>"Update Animal", "id"=>"1"}
+  [1m[36mAnimal Load (0.1ms)[0m  [1mSELECT  "animals".* FROM "animals"  WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  app/controllers/animals_controller.rb:44:in `block in update'
+  app/controllers/animals_controller.rb:43:in `update'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+Processing by AnimalsController#index as HTML
+  [1m[35mAnimal Load (0.1ms)[0m  SELECT "animals".* FROM "animals"
+  Rendered animals/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/animals.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/animals.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/sightings.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/sightings.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:39 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+Processing by AnimalsController#index as HTML
+  [1m[36mAnimal Load (0.1ms)[0m  [1mSELECT "animals".* FROM "animals"[0m
+  Rendered animals/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 95ms (Views: 94.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/animals.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/sightings.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/animals.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/sightings.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 11:36:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:36:46 -0600
+Processing by AnimalsController#index as HTML
+  [1m[35mAnimal Load (0.1ms)[0m  SELECT "animals".* FROM "animals"
+  Rendered animals/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2014-11-25 11:36:49 -0600
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAnimal Load (0.1ms)[0m  [1mSELECT  "animals".* FROM "animals"  WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered animals/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/animals/1/edit" for 127.0.0.1 at 2014-11-25 11:36:50 -0600
+Processing by AnimalsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAnimal Load (0.1ms)[0m  SELECT  "animals".* FROM "animals"  WHERE "animals"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered animals/_form.html.erb (1.0ms)
+  Rendered animals/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:36:51 -0600
+Processing by AnimalsController#index as HTML
+  [1m[36mAnimal Load (0.1ms)[0m  [1mSELECT "animals".* FROM "animals"[0m
+  Rendered animals/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.1ms)
